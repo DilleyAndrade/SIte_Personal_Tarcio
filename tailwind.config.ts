@@ -14,6 +14,17 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      inter: ['var(--font-inter)'],
+      bebas: ['var(--font-bebas)'],
+    },
+    colors: {
+      mainColor: '#FFF31B',
+      mainColorHover: '#FFF655',
+      bgColor: '#000000',
+      middleColor: '#424242',
+      fontColor: '#ffffff',
+    },
   },
   plugins: [],
 }
