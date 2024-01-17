@@ -13,6 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      borderRadius: {
+        '4xl': '74px'
+      }
     },
     fontFamily: {
       inter: ['var(--font-inter)'],
@@ -25,6 +28,7 @@ const config: Config = {
       middleColor: '#424242',
       fontColor: '#ffffff',
     },
+
   },
   plugins: [],
 }

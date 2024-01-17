@@ -91,7 +91,7 @@ export default function HomePage() {
       </nav>
       
       <div className="px-28 2xl:px-64 w-full flex flex-row items-center">
-        <div className="text-fontColor text-center sm:text-start flex flex-col sm:items-start gap-4">
+        <div className="text-fontColor text-center sm:text-start flex flex-col sm:items-start gap-3 mb-14">
           <h1 className="font-bebas  lg:text-7xl  xl:text-8xl">
             Transforme seu corpo <br /> e sua vida hoje mesmo!
           </h1>
@@ -111,7 +111,6 @@ export default function HomePage() {
               priority={true}
             />
           </div>
-          
           <div className="hidden xl:block h-5/6 w-72 bg-mainColor absolute -top-32 left-24 -z-10">
             <Image 
               className="mt-10 ml-8"

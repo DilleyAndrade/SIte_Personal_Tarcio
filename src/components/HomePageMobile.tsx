@@ -3,8 +3,8 @@ import ButtonYellow from "./ButtonYellow";
 export default function HomePageMobile() {
   return (
     <div id="homeMobile" className="lg:hidden">
-      <div className="px-6 pt-28 w-full  flex flex-col gap-8 sm:flex-row items-center justify-center">
-        <div className="text-fontColor max-w-max text-center flex flex-col items-center gap-4">
+      <div className="px-6 pt-28 w-full flex flex-col gap-8 sm:flex-row items-center sm:items-start md:items-center justify-center">
+        <div className="text-fontColor max-w-max text-center flex flex-col items-center gap-3">
           <h1 className="text-5xl md:text-6xl font-bebas">
             Transforme seu corpo e sua vida hoje mesmo!
           </h1>
@@ -17,7 +17,7 @@ export default function HomePageMobile() {
         <Image 
           src="/fotoTarcioMain.png" 
           alt="Picture of the author"
-          width={450}
+          width={300}
           height={400}
           priority={true}
         />
