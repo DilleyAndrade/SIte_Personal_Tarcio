@@ -3,6 +3,7 @@ import Benefits from "@/components/Benefits";
 import HomePage from "@/components/HomePage";
 import HomePageMobile from "@/components/HomePageMobile";
 import MenuMobile from "@/components/MenuMobile";
+import TrainingTypes from "@/components/TrainingTypes";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <HomePage />
     <Benefits />
     <AboutMe/>
+    <TrainingTypes />
    </>
   )
 }

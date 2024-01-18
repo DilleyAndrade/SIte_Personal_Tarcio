@@ -15,7 +15,10 @@ const config: Config = {
       },
       borderRadius: {
         '4xl': '74px'
-      }
+      },
+      brightness: {
+        'ideal':'.4'
+      },
     },
     fontFamily: {
       inter: ['var(--font-inter)'],
