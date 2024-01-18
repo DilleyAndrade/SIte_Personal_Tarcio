@@ -9,10 +9,13 @@ export default function HomePageMobile() {
             Transforme seu corpo e sua vida hoje mesmo!
           </h1>
           <p className="text-sm md:w-10/12">
-            Junte-se a nós para uma jornada de fitness personalizada 
+            Junte-se a nós para uma jornada fitness personalizada 
             e alcance seus objetivos de saúde e bem-estar.
           </p>
-          <ButtonYellow />
+          <ButtonYellow 
+            buttonMessage="Quero fazer parte"
+            buttonTarget="https://wa.me/message/F7ZOGX6XXKEBD1"
+          />
         </div>
         <Image 
           src="/fotoTarcioMain.png" 

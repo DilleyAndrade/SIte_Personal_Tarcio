@@ -96,10 +96,13 @@ export default function HomePage() {
             Transforme seu corpo <br /> e sua vida hoje mesmo!
           </h1>
           <p className="text-sm lg:text-base xl:text-xl lg:w-7/12">
-            Junte-se a nós para uma jornada de fitness personalizada 
+            Junte-se a nós para uma jornada fitness personalizada 
             e alcance seus objetivos de saúde e bem-estar.
           </p>
-          <ButtonYellow />
+          <ButtonYellow 
+            buttonMessage="Quero fazer parte"
+            buttonTarget="https://wa.me/message/F7ZOGX6XXKEBD1"
+          />
         </div>
         <div className="relative">
           <div className="z-30 mt-6">
