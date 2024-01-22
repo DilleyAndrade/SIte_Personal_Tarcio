@@ -75,7 +75,7 @@ export default function Footer() {
       </div>
       <footer className="justify-center xl:justify-between items-center flex flex-col xl:flex-row gap-7 text-fontColor pt-8 mb-6">
         <div className='flex gap-3 text-center'>
-          <p>Copyright @ 2024 Tarcio Marques. Desenvolvido por Dilley Andrade</p>
+          <p>Copyright @ 2024 Tarcio Marques. Desenvolvido por <a className="text-mainColor" href="www.dilleyandrade.com.br">Dilley Andrade</a></p>
         </div>
         <div className='flex gap-3 justify-center'>
             <a 
