@@ -6,12 +6,12 @@ import Link from "next/link";
 export default function HomePage() {
   return (
     <div id="home" className="hidden lg:block">
-      <header className="hidden border-b-2 bg-bgColor border-b-mainColor lg:justify-between lg:flex gap-7 text-fontColor px-6  lg:px-28 2xl:px-64 pt-8">
+      <header className="hidden border-b-2 bg-bgColor border-b-mainColor items-center lg:justify-between lg:flex gap-7 text-fontColor py-6 px-6  lg:px-28 2xl:px-64 ">
         <div className='flex gap-3'>
           <p>+55 (81) 98723-5056</p>
           <p>tarciomnsilva@gmail.com</p>
         </div>
-        <div className='flex gap-3 justify-center mb-8'>
+        <div className='flex gap-3 justify-center '>
             <a 
               className="hover:scale-105 duration-300"
               href="https://www.instagram.com/tarciomarquespersonal/" 
@@ -109,7 +109,7 @@ export default function HomePage() {
             <Image 
               src="/fotoTarcioMain.png" 
               alt="Picture of the author"
-              width={600}
+              width={550}
               height={558}
               priority={true}
             />

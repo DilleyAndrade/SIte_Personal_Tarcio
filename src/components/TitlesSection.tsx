@@ -9,7 +9,7 @@ export default function TitlesSection({title, description}:TitlesSectionProps) {
       <h3 className="font-bebas text-mainColor text-5xl">
         {title}
       </h3>
-      <p className="font-inter max-w-max text-fontColor text-xl border-b-mainColor border-b-2 ">
+      <p className="font-inter max-w-xl text-fontColor text-xl border-b-mainColor border-b-2 ">
         {description}
       </p>
       </div>

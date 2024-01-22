@@ -30,6 +30,7 @@ const config: Config = {
       bgColor: '#000000',
       middleColor: '#424242',
       fontColor: '#ffffff',
+      buttonBlue: '#0061BB'
     },
 
   },
