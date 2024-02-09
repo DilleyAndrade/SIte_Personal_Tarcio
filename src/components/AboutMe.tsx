@@ -5,7 +5,7 @@ import { Barbell, PersonArmsSpread, SneakerMove } from "@phosphor-icons/react/di
 
 export default function AboutMe() {
   return (
-    <div>
+    <div id="aboutMe">
       <div className="px-6 text-center flex flex-col items-center mb-10">
         <TitlesSection
           title="Conheça Tarcio Marques"
@@ -13,8 +13,8 @@ export default function AboutMe() {
         />
         <p className="font-inter max-w-4xl text-fontColor text-xl mb-7">
           Me chamo Tarcio Marques, sou profissional de Educação Física formado pela Universidade 
-          Federal de Pernambuco (UFPE). Atuo nas funções de coordenador técnico na musculação, 
-          Personal trainer com foco em musculação e treinamento funcional.
+          Federal de Pernambuco (UFPE). Atuo nas funções de Personal trainer com foco em musculação
+          e treinamento funcional.
         </p>
         <div>
           <a 
@@ -66,7 +66,7 @@ export default function AboutMe() {
                 <h5
                   className="font-bebas text-mainColor text-2xl"
                 >
-                  Consultor esportivo
+                  Treinador
                 </h5>
                 <p className="font-inter text-fontColor text-base max-w-xl">
                   Trabalharemos juntos para desenvolver estratégias que maximizem seu desempenho esportivo. 

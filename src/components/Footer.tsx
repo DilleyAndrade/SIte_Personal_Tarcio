@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col justify-center items-center ">
           <Image src="/tarcioLogoColor.png" width={182} height={88} alt="Logo Tarcio" />
           <ul className="font-inter text-fontColor text-center lg:text-start text-xl mt-8">
-            <li>Av. Gov. Agamenon Magalhães, 4318</li>
+            <li>Av. Gov. Agamenon Magalhães, 4318- <br /> Paissandu, Recife - PE, 52010-075, Brasil.</li>
             <br />
             <li>tarciomnsilva@gmail.com</li>
             <br />
@@ -25,26 +25,22 @@ export default function Footer() {
               <li
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
                 >
-                <Link href="#home"/>
-                Home
+                <a href="#home">Home</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
               >
-                <Link href="#"/>
-                Quem sou eu
+                <a href="#aboutMe">Quem sou eu</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
               >
-                <Link href="#"/>
-                Consultorias
+                <a href="#consultancy">Consultorias</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
               >
-                <Link href="#"/>
-                Depoimentos
+                <a href="#depositions">Depoimentos</a>
               </li>
             </ul>
           </nav>
@@ -75,57 +71,57 @@ export default function Footer() {
       </div>
       <footer className="justify-center xl:justify-between items-center flex flex-col xl:flex-row gap-7 text-fontColor pt-8 mb-6">
         <div className='flex gap-3 text-center'>
-          <p>Copyright @ 2024 Tarcio Marques. Desenvolvido por <a className="text-mainColor" href="www.dilleyandrade.com.br">Dilley Andrade</a></p>
+          <p>Copyright © 2024 Tarcio Marques. Desenvolvido por <a className="text-mainColor" href="www.dilleyandrade.com.br">Dilley Andrade</a></p>
         </div>
         <div className='flex gap-3 justify-center'>
-            <a 
-              className="hover:scale-105 duration-300"
-              href="https://www.instagram.com/tarciomarquespersonal/" 
-              target='_blank'
-            >
-              <InstagramLogo 
-                size={40} 
-                weight='bold' 
-                className='bg-mainColor rounded-full p-1 text-middleColor'
-              />
-            </a>
+          <a 
+            className="hover:scale-105 duration-300"
+            href="https://www.instagram.com/tarciomarquespersonal/" 
+            target='_blank'
+          >
+            <InstagramLogo 
+              size={40} 
+              weight='bold' 
+              className='bg-mainColor rounded-full p-1 text-middleColor'
+            />
+          </a>
 
-            <a 
-              className="hover:scale-105 duration-300"
-              href="" 
-              target='_blank'
-            >
-              <YoutubeLogo 
-                size={38} 
-                weight='bold' 
-                className='bg-mainColor rounded-full p-1 text-middleColor'
-              />
-            </a>
+          <a 
+            className="hover:scale-105 duration-300"
+            href="https://www.youtube.com/@tarcioceifadorpersonal" 
+            target='_blank'
+          >
+            <YoutubeLogo 
+              size={38} 
+              weight='bold' 
+              className='bg-mainColor rounded-full p-1 text-middleColor'
+            />
+          </a>
 
-            <a 
-              className="hover:scale-105 duration-300"
-              href="https://www.facebook.com/TarcioMarquess" 
-              target='_blank'
-            >
-              <FacebookLogo 
-                size={38} 
-                weight='bold' 
-                className='bg-mainColor rounded-full p-1 text-middleColor'
-              />
-            </a>
+          <a 
+            className="hover:scale-105 duration-300"
+            href="https://www.facebook.com/TarcioMarquess" 
+            target='_blank'
+          >
+            <FacebookLogo 
+              size={38} 
+              weight='bold' 
+              className='bg-mainColor rounded-full p-1 text-middleColor'
+            />
+          </a>
 
-            <a 
-              className="hover:scale-105 duration-300"
-              href="https://wa.me/message/F7ZOGX6XXKEBD1" 
-              target='_blank'
-            >
-              <WhatsappLogo 
-                size={38} 
-                weight='bold' 
-                className='bg-mainColor rounded-full p-1 text-middleColor'
-              />
-            </a>
-          </div>
+          <a 
+            className="hover:scale-105 duration-300"
+            href="https://wa.me/message/F7ZOGX6XXKEBD1" 
+            target='_blank'
+          >
+            <WhatsappLogo 
+              size={38} 
+              weight='bold' 
+              className='bg-mainColor rounded-full p-1 text-middleColor'
+            />
+          </a>
+        </div>
       </footer>
     </div>
   )

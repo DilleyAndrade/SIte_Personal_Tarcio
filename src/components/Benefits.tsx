@@ -6,25 +6,25 @@ export default function Benefits() {
       <Benefit 
         benefictImage="/iconBenefictClock.png"
         benefictTitle="Flexibilidade de horário"
-        benefictDescription="Treino compatível com seu horário"
+        benefictDescription="Treino adaptado para sua disponibilidade"
       />
 
       <Benefit 
         benefictImage="/iconBenefictWeight.png"
         benefictTitle="Treinos personalizados"
-        benefictDescription="Sempre o treino certo para você"
+        benefictDescription="Atendimento no mundo todo"
       />
 
       <Benefit 
         benefictImage="/iconBenefictPersonal.png"
         benefictTitle="Motivação ativa"
-        benefictDescription="Suporte de treino profissional"
+        benefictDescription="Motivação e suporte constante"
       />
 
       <Benefit 
         benefictImage="/iconBenefictPersonal.png"
-        benefictTitle="Motivação ativa"
-        benefictDescription="Suporte de treino profissional"
+        benefictTitle="Vida saudável"
+        benefictDescription="Melhore suas dores e ganhe músculos"
       />
       
     </div>

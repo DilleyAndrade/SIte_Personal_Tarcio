@@ -5,7 +5,7 @@ import ButtonBlue from './ButtonBlue'
 
 export default function ChoiceYourPLan() {
   return (
-    <div className='px-6 2xl:px-64 mb-14'>
+    <div id='consultancy' className='px-6 2xl:px-64 mb-14'>
       <TitlesSection 
         title='Escolha como quer treinar'
         description='Qual a modalidade de Personal Trainer

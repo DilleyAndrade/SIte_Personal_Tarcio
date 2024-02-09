@@ -42,20 +42,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="pt" className={`${bebas.variable} ${inter.variable}`}>
-      <body className='bg-bgColor'>
-
-        <header>
-
-        </header>
-
-        <main>
+    <html lang="pt" className={`${bebas.variable} ${inter.variable} scroll-smooth scroll-py-8`}>
+      <body className='bg-bgColor scroll-smooth'>
           {children}
-        </main>
-
-        <footer>
-
-        </footer>
       </body>
     </html>
   )

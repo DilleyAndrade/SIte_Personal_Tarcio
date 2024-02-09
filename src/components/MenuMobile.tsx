@@ -37,36 +37,32 @@ export default function MenuMobile() {
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
                 onClick={()=>setMenuMobileIsOpen(false)}
                >
-                <Link href="#homeMobile"/>
-                Home
+                <a href="#homeMobile">Home</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
                 onClick={()=>setMenuMobileIsOpen(false)}
               >
-                <Link href="#"/>
-                Quem sou eu
+                <a href="#aboutMe">Quem sou eu</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
                 onClick={()=>setMenuMobileIsOpen(false)}
               >
-                <Link href="#"/>
-                Consultorias
+                 <a href="#consultancy">Consultorias</a>
               </li>
               <li 
                 className='text-fontColor cursor-pointer border-b-2 border-middleColor hover:text-mainColor hover:border-mainColor duration-300'
                 onClick={()=>setMenuMobileIsOpen(false)}
               >
-                <Link href="#"/>
-                Depoimentos
+                <a href="#depositions">Depoimentos</a>
               </li>
             </ul>
           </nav>
           <div className='font-inter text-fontColor text-sm flex flex-col items-center mb-10'>
             <div className='flex gap-1'>
               <MapPin size={18} weight='fill' color='#FFF31B'/>
-              <p>Av. Gov. Agamenon Magalhães, 4318</p>
+              <li>Av. Gov. Agamenon Magalhães, 4318- <br /> Paissandu, Recife - PE, 52010-075, Brasil.</li>
             </div>
             <div className='flex gap-2 my-3'>
               <Envelope size={18} weight='fill' color='#FFF31B'/>
@@ -86,7 +82,7 @@ export default function MenuMobile() {
               />
             </a>
 
-            <a href="" target='_blank'>
+            <a href="https://www.youtube.com/@tarcioceifadorpersonal" target='_blank'>
               <YoutubeLogo 
                 size={40} 
                 weight='bold' 

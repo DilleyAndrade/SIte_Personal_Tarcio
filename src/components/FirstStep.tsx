@@ -14,12 +14,10 @@ export default function FirstStep() {
       </div>
       
       <div className="flex flex-wrap justify-center w-full">
-        <Image src="/foto1.jpg" width={350} height={350} alt="" />
-        <Image src="/foto2.jpg" width={350} height={350} alt="" />
-        <Image src="/foto3.jpg" width={350} height={350} alt="" />
-        <Image src="/foto4.jpg" width={350} height={350} alt="" />
-        <Image src="/foto4.jpg" width={350} height={350} alt="" />
-        
+        <Image src="/foto1.jpg" width={350} height={350} alt="Alunos de tarcio treinando" />
+        <Image src="/foto4.jpg" width={350} height={350} alt="Alunos de tarcio treinando" />
+        <Image src="/foto2.jpg" width={350} height={350} alt="Alunos de tarcio treinando" />
+        <Image src="/foto3.jpg" width={350} height={350} alt="Alunos de tarcio treinando" />
       </div>
     </div>
   )

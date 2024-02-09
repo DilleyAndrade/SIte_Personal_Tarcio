@@ -26,7 +26,7 @@ export default function HomePage() {
 
             <a 
               className="hover:scale-105 duration-300"
-              href="" 
+              href="https://www.youtube.com/@tarcioceifadorpersonal" 
               target='_blank'
             >
               <YoutubeLogo 
@@ -66,26 +66,22 @@ export default function HomePage() {
             <li
               className='text-fontColor cursor-pointer border-b-2 border-bgColor hover:text-mainColor hover:border-mainColor duration-300'
               >
-              <Link href="#home"/>
-              Home
+              <a href="#home">Home</a>
             </li>
             <li 
               className='text-fontColor cursor-pointer border-b-2 border-bgColor hover:text-mainColor hover:border-mainColor duration-300'
             >
-              <Link href="#"/>
-              Quem sou eu
+              <a href="#aboutMe">Quem sou eu</a>
             </li>
             <li 
               className='text-fontColor cursor-pointer border-b-2 border-bgColor hover:text-mainColor hover:border-mainColor duration-300'
             >
-              <Link href="#"/>
-              Consultorias
+              <a href="#consultancy">Consultorias</a>
             </li>
             <li 
               className='text-fontColor cursor-pointer border-b-2 border-bgColor hover:text-mainColor hover:border-mainColor duration-300'
             >
-              <Link href="#"/>
-              Depoimentos
+              <a href="#depositions">Depoimentos</a>
             </li>
           </ul>
       </nav>
@@ -125,7 +121,6 @@ export default function HomePage() {
             />
           </div>
         </div>
-        
       </div>
     </div>
   )

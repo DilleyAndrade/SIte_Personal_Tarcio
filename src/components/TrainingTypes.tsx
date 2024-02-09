@@ -15,30 +15,24 @@ export default function TrainingTypes() {
         <TrainingServices
           serviceImage="/service.jpg"
           serviceTitle="Avaliação física"
-          serviceDescription="Atinja o seu ápice físico, melhore a sua
-          potência, força, velocidade e
-          resistência e seja um atleta de ponta."
+          serviceDescription="Triagem dos parâmetros físicos para fins comparativos futuros (antes e depois)"
         />
         <TrainingServices
           serviceImage="/service.jpg"
-          serviceTitle="Avaliação física"
-          serviceDescription="Atinja o seu ápice físico, melhore a sua
-          potência, força, velocidade e
-          resistência e seja um atleta de ponta."
+          serviceTitle="Avaliação funcional "
+          serviceDescription="Triagem da capacidade de realizar movimento em todas as articulações, com o
+            objetivo de diminuir erros"
         />
         <TrainingServices
           serviceImage="/service.jpg"
-          serviceTitle="Avaliação física"
-          serviceDescription="Atinja o seu ápice físico, melhore a sua
-          potência, força, velocidade e
-          resistência e seja um atleta de ponta."
+          serviceTitle="Musculação funcional "
+          serviceDescription="Treinos voltados para a sua realidade, visando melhora no parâmetro físico
+            e na realização de movimentos."
         />
         <TrainingServices
           serviceImage="/service.jpg"
-          serviceTitle="Avaliação física"
-          serviceDescription="Atinja o seu ápice físico, melhore a sua
-          potência, força, velocidade e
-          resistência e seja um atleta de ponta."
+          serviceTitle="Hipertrofia seletiva "
+          serviceDescription="Foco no crescimento daqueles músculos que você tem mais dificuldade."
         />
       </div>
     </div>

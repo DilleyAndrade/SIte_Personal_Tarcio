@@ -29,23 +29,9 @@ export default function Avaliations() {
         <div className="flex flex-wrap gap-12 items-center justify-center mt-9">
           <Avaliation 
             avaliationImage="/depoimento.jpg"
-            avaliationName="Maria Clara"
-            avaliationProfession="Esteticista"
-            avaliationComment='"Sem duvidas o melhor app de treinamentos, já perdi 6kg em poucos meses de uso, o mais incrível é o acompanhamento com nutricionista."'
-          />
-
-          <Avaliation 
-            avaliationImage="/depoimento.jpg"
-            avaliationName="Maria Clara"
-            avaliationProfession="Esteticista"
-            avaliationComment='"Sem duvidas o melhor app de treinamentos, já perdi 6kg em poucos meses de uso, o mais incrível é o acompanhamento com nutricionista."'
-          />
-
-          <Avaliation 
-            avaliationImage="/depoimento.jpg"
-            avaliationName="Maria Clara"
-            avaliationProfession="Esteticista"
-            avaliationComment='"Sem duvidas o melhor app de treinamentos, já perdi 6kg em poucos meses de uso, o mais incrível é o acompanhamento com nutricionista."'
+            avaliationName="Givanilson Soares"
+            avaliationProfession="Professor"
+            avaliationComment='"Uma abordagem personalizada, pensada para as minhas necessidades e que se encaixa na minha rotina, um acompanhamento mais próximo e a facilidade de comunicação."'
           />
         </div>
       </div>
